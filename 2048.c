@@ -17,7 +17,7 @@
 #include <time.h>	  // defines: time
 #include <signal.h>	  // defines: signal, SIGINT
 
-#define SIZE 4
+#define SIZE 10
 
 // this function receives 2 pointers (indicated by *) so it can set their values
 void getColors(uint8_t value, uint8_t scheme, uint8_t *foreground, uint8_t *background)
